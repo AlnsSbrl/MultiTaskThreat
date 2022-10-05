@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\bin\Debug\net6.0\BecerroDelegado.exe
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\bin\Debug\net6.0\BecerroDelegado.deps.json
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\bin\Debug\net6.0\BecerroDelegado.runtimeconfig.json
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\bin\Debug\net6.0\BecerroDelegado.dll
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\bin\Debug\net6.0\BecerroDelegado.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\BecerroDelegado.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\BecerroDelegado.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\BecerroDelegado.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\BecerroDelegado.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\BecerroDelegado.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\BecerroDelegado.dll
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\refint\BecerroDelegado.dll
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\BecerroDelegado.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\BecerroDelegado.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Proyectos C#\BecerroDelegado\BecerroDelegado\obj\Debug\net6.0\ref\BecerroDelegado.dll
