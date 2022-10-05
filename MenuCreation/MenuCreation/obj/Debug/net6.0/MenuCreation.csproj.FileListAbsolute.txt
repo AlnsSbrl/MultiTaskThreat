@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\bin\Debug\net6.0\MenuCreation.exe
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\bin\Debug\net6.0\MenuCreation.deps.json
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\bin\Debug\net6.0\MenuCreation.runtimeconfig.json
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\bin\Debug\net6.0\MenuCreation.dll
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\bin\Debug\net6.0\MenuCreation.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\MenuCreation.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\MenuCreation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\MenuCreation.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\MenuCreation.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\MenuCreation.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\MenuCreation.dll
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\refint\MenuCreation.dll
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\MenuCreation.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\MenuCreation.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MenuCreation\MenuCreation\obj\Debug\net6.0\ref\MenuCreation.dll
