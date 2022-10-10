@@ -19,13 +19,13 @@
 
                         if (!parar)
                         {
-
                             ++suma;
                             Console.WriteLine($"\tSuma: {suma}");
                         }
                         if (suma >= 1000)
                         {
                             parar = true;
+                            Monitor.Pulse(candado);
                         }
                     }
                 }
@@ -39,17 +39,27 @@
 
                         if (!parar)
                         {
-
                             --suma;
                             Console.WriteLine($"\tSuma: {suma}");
                         }
-                        if (suma <= -1000) { parar = true; }
+                        if (suma <= -1000)
+                        {
+                            parar = true;
+                            Monitor.Pulse(candado);
+                        }
                     }
                 }
             });
             thread1.Start();
             thread2.Start();
-            Console.ReadKey();
+            lock (candado)
+            {
+                while (!parar)
+                {
+                    Monitor.Wait(candado);
+                }
+            }
+            Console.WriteLine("O gañador é {0}", suma > 0 ? "thread1" : "thread2");
         }
     }
 }
