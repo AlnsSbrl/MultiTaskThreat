@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\net6.0\CarreraDeCaballos.exe
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\net6.0\CarreraDeCaballos.deps.json
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\net6.0\CarreraDeCaballos.runtimeconfig.json
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\net6.0\CarreraDeCaballos.dll
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\bin\Debug\net6.0\CarreraDeCaballos.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\CarreraDeCaballos.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\CarreraDeCaballos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\CarreraDeCaballos.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\CarreraDeCaballos.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\CarreraDeCaballos.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\CarreraDeCaballos.dll
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\refint\CarreraDeCaballos.dll
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\CarreraDeCaballos.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\CarreraDeCaballos.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\CarreraDeCaballos\CarreraDeCaballos\obj\Debug\net6.0\ref\CarreraDeCaballos.dll
