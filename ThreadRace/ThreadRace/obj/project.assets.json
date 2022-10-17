@@ -8,7 +8,7 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Pablo\\.nuget\\packages\\": {}
+    "C:\\Users\\alumnoinfo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Proyectos C#\\MultiTaskThreat\\ThreadRace\\ThreadRace\\ThreadRace.csproj",
       "projectName": "ThreadRace",
       "projectPath": "C:\\Users\\Pablo\\Desktop\\Proyectos C#\\MultiTaskThreat\\ThreadRace\\ThreadRace\\ThreadRace.csproj",
-      "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\alumnoinfo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Pablo\\Desktop\\Proyectos C#\\MultiTaskThreat\\ThreadRace\\ThreadRace\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alumnoinfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
