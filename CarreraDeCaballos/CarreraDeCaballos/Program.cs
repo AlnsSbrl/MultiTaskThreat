@@ -12,8 +12,10 @@ namespace CarreraDeCaballos
         {
             //POR ALGUN MOTIVO NO ME COLOCA BIEN EL Nº DEL CABALLO          
             Console.SetCursorPosition(0, horse.PosY);
-            Console.Write(horse.PosY + 1 + ")".PadRight(Console.WindowWidth));
-            Console.SetCursorPosition(horse.PosX, horse.PosY);
+            Console.Write("".PadRight(Console.WindowWidth));
+            Console.SetCursorPosition(0, horse.PosY);
+            Console.Write(horse.PosY + 1 + ")");
+           
         }
         static void CabalosCorrendo(Object horse)
         {
@@ -28,10 +30,9 @@ namespace CarreraDeCaballos
                 {
                     if (noHayGanador)
                     {
-
-                        horse.Correr(rand.Next(1, 6));
-                        horse.Posicion();
+                        horse.Correr(rand.Next(1, 6));                       
                         ClearCurrentConsoleLine(horse);
+                        horse.Posicion();
                         Console.Write("*");
                         if (horse.PosX >= 70)
                         {
@@ -40,7 +41,7 @@ namespace CarreraDeCaballos
                         }
                     }
                 }
-                Thread.Sleep(rand.Next(100, 300));
+                Thread.Sleep(rand.Next(100, 300));               
             } while (!horse.esGanador && noHayGanador);
             lock (l)
             {
@@ -96,6 +97,9 @@ namespace CarreraDeCaballos
                         cabaloThread[i] = new Thread(CabalosCorrendo);
                         cabaloThread[i].Start(cabalo[i]);
                     }
+                    Console.Clear();
+                    Console.SetCursorPosition(0, cabaloThread.Length + 1);
+                    Console.WriteLine("Chosen horse: {0}", cabaloEscollido);
                     Monitor.Wait(l);
                 }
                 Console.SetCursorPosition(0, 8);
