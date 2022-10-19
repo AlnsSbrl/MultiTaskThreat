@@ -49,7 +49,7 @@ namespace CarreraDeCaballos
                 {
                     Monitor.Pulse(l);
                 }
-                Monitor.Wait(l);
+              
             }
         }
         static void Main(string[] args)
@@ -122,10 +122,7 @@ namespace CarreraDeCaballos
                 resposta = Console.ReadLine();
             } while (resposta.ToUpper().StartsWith('Y'));
             Console.WriteLine("It's been a pleasure, please come back any other time!");
-            lock (l)
-            {
-                Monitor.PulseAll(l);
-            }
+            
         }
     }
 }
