@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\ThreePlayers.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\ThreePlayers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\ThreePlayers.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\ThreePlayers.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\ThreePlayers.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\bin\Debug\net6.0\ThreePlayers.exe
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\bin\Debug\net6.0\ThreePlayers.deps.json
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\bin\Debug\net6.0\ThreePlayers.runtimeconfig.json
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\bin\Debug\net6.0\ThreePlayers.dll
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\bin\Debug\net6.0\ThreePlayers.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\ThreePlayers.dll
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\refint\ThreePlayers.dll
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\ThreePlayers.pdb
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\ThreePlayers.genruntimeconfig.cache
+C:\Users\Pablo\Desktop\Proyectos C#\MultiTaskThreat\ThreePlayers\ThreePlayers\obj\Debug\net6.0\ref\ThreePlayers.dll
