@@ -19,7 +19,7 @@ namespace ThreePlayers
             Console.SetCursorPosition(2, 10);
             Console.WriteLine("Contador: {0}".PadRight(Console.WindowWidth), contador);
         }
-        static void display()
+        static void Display()
         {
             Random r = new Random();
             while (!endGame)
@@ -36,7 +36,7 @@ namespace ThreePlayers
             }
         }
 
-        static void player1()
+        static void Player1()
         {
             Random random = new Random();
             int num;
@@ -64,7 +64,7 @@ namespace ThreePlayers
             }
         }
 
-        static void player2()
+        static void Player2()
         {
             Random random = new Random();
             int num;
@@ -95,9 +95,9 @@ namespace ThreePlayers
             Console.Write("player 1");
             Console.SetCursorPosition(0, 5);
             Console.Write("player 2");
-            Thread jugador1 = new Thread(player1);
-            Thread jugador2 = new Thread(player2);
-            Thread mostrar = new Thread(display);
+            Thread jugador1 = new Thread(Player1);
+            Thread jugador2 = new Thread(Player2);
+            Thread mostrar = new Thread(Display);
             jugador1.Start();
             jugador2.Start();
             mostrar.Start();
