@@ -1,0 +1,15 @@
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\bin\Debug\net6.0\OMeuTimer.exe
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\bin\Debug\net6.0\OMeuTimer.deps.json
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\bin\Debug\net6.0\OMeuTimer.runtimeconfig.json
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\bin\Debug\net6.0\OMeuTimer.dll
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\bin\Debug\net6.0\ref\OMeuTimer.dll
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\bin\Debug\net6.0\OMeuTimer.pdb
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\obj\Debug\net6.0\OMeuTimer.csproj.AssemblyReference.cache
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\obj\Debug\net6.0\OMeuTimer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\obj\Debug\net6.0\OMeuTimer.AssemblyInfoInputs.cache
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\obj\Debug\net6.0\OMeuTimer.AssemblyInfo.cs
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\obj\Debug\net6.0\OMeuTimer.csproj.CoreCompileInputs.cache
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\obj\Debug\net6.0\OMeuTimer.dll
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\obj\Debug\net6.0\ref\OMeuTimer.dll
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\obj\Debug\net6.0\OMeuTimer.pdb
+C:\Users\Pablo\Desktop\Repositorios de C#\MultiTaskThreat\OMeuTimer\OMeuTimer\obj\Debug\net6.0\OMeuTimer.genruntimeconfig.cache
