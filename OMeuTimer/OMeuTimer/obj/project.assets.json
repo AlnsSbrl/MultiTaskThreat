@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Repositorios de C#\\MultiTaskThreat\\OMeuTimer\\OMeuTimer\\OMeuTimer.csproj",
+      "projectUniqueName": "C:\\Users\\Pablo\\Desktop\\Proyectos C#\\MultiTaskThreat\\OMeuTimer\\OMeuTimer\\OMeuTimer.csproj",
       "projectName": "OMeuTimer",
-      "projectPath": "C:\\Users\\Pablo\\Desktop\\Repositorios de C#\\MultiTaskThreat\\OMeuTimer\\OMeuTimer\\OMeuTimer.csproj",
+      "projectPath": "C:\\Users\\Pablo\\Desktop\\Proyectos C#\\MultiTaskThreat\\OMeuTimer\\OMeuTimer\\OMeuTimer.csproj",
       "packagesPath": "C:\\Users\\Pablo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pablo\\Desktop\\Repositorios de C#\\MultiTaskThreat\\OMeuTimer\\OMeuTimer\\obj\\",
+      "outputPath": "C:\\Users\\Pablo\\Desktop\\Proyectos C#\\MultiTaskThreat\\OMeuTimer\\OMeuTimer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pablo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -51,7 +51,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -24,6 +24,7 @@
                 Console.WriteLine("Press 1 to restart or Enter to end.");
                 op = Console.ReadLine();
             } while (op == "1");
+            
         }
     }
 

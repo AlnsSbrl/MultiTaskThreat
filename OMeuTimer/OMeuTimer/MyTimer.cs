@@ -11,48 +11,57 @@ namespace OMeuTimer
     {
         static readonly private object l = new object();
         public int interval;
-        static private bool isPaused;
-        //bool inicializado = false;
-        
+        static private bool isPaused = false;
+        Thread threadFuncion;
+        static private bool hasStarted = false;
         Delegado delegado;
 
         public MyTimer(Delegado funcion)
-        {          
+        {
             delegado = new Delegado(funcion);
         }
 
         public void Run()
         {
-            isPaused = false;
-            Thread threadFuncion = new Thread(Execution);
-            threadFuncion.Start();
-            //no creo que se busque que funcione así
-            //basicamente mi codigo al pausar el hilo de la funcion (que se ejecuta en bucle) TERMINA
-            //y al ejecutar otra vez Run() lanzo otro hilo que empieza de cero a ejecutarse en bucle
-            //la funcionalidad acaba siendo la misma, pero creo que se busca jugar más
-            //con Wait(l) y Pulse(l)
+            lock (l)
+            {
+                if (!hasStarted)
+                {
+                    hasStarted = true;
+                    threadFuncion = new Thread(Execution);
+                    threadFuncion.IsBackground = true;
+                    threadFuncion.Start();
+                }
+                else
+                {
+                    isPaused = false;
+                    Monitor.Pulse(l);
+                }
+            }
         }
 
         public void Pause()
-        {         
-            isPaused = true;
+        {
+            lock (l)
+            {
+                isPaused = true;
+            }
         }
 
         public void Execution()
         {
-            do
+            while (!isPaused)
             {
+                delegado.Invoke();
+                Thread.Sleep(interval);          
                 lock (l)
                 {
-                    delegado.Invoke();
-                    //if (isPaused)
-                    //{
-                    //    Monitor.Wait(l);
-                    //}
+                    if (isPaused)
+                    {
+                        Monitor.Wait(l);
+                    }
                 }
-                Thread.Sleep(interval);
-            } while (!isPaused);
+            }
         }
-
     }
 }
