@@ -57,9 +57,11 @@ namespace CarreraDeCaballos
             string resposta;
             int cabaloEscollido;
             bool existeCabalo;
+            int stage = 0;
             Caballo[] cabalo = new Caballo[5];
             do
             {
+                stage++;
                 noHayGanador = true;
                 lock (l)
                 {
@@ -73,7 +75,7 @@ namespace CarreraDeCaballos
                         "3)*\n" +
                         "4)*\n" +
                         "5)*\n");
-                    Console.WriteLine("For which one of the following horses do you wanna bet on?");
+                    Console.WriteLine("Stage {0} of the Steel Ball Run Race is up! Who do you wanna bet on?",stage);
                     existeCabalo = int.TryParse(Console.ReadLine(), out cabaloEscollido);
                     if (!existeCabalo)
                     {
@@ -107,7 +109,7 @@ namespace CarreraDeCaballos
                 {
                     if (cabalo[i].esGanador)
                     {
-                        Console.WriteLine($"The winner is Horse number {i + 1}");
+                        Console.WriteLine($"The winner is {cabalo[i].jinete} with horse number {i + 1}");
                         if (i == cabaloEscollido - 1)
                         {
                             Console.WriteLine("Congrats, you're the winner!");

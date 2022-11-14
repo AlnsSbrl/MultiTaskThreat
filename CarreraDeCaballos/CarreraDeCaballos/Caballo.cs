@@ -13,6 +13,8 @@ namespace CarreraDeCaballos
         public int PosY;
         public bool esGanador;
         public int num;
+        public string jinete;
+        private string[] listaJinetes="Diego Brando,Gyro Zeppeli,Johnny Joestar,Mountain Tim,Hot Pants,Sandman,Fritz Von Stroheim,Hol Horse".Split(',');
         public void Correr(int casillas)
         {
             PosX+=casillas;
@@ -29,6 +31,8 @@ namespace CarreraDeCaballos
             this.PosY = PosY;
             this.num = num;
             esGanador = false;
+            Random rnd = new Random();
+            jinete = listaJinetes[rnd.Next(listaJinetes.Length)];
         }
     }
 }
