@@ -24,15 +24,21 @@ namespace ThreePlayers
             Random r = new Random();
             while (!endGame)
             {
+                Thread.Sleep(200);
                 lock (l)
                 {
                     {
                         Console.SetCursorPosition(10, 5);
-                        Console.WriteLine(caracteresRandom[r.Next(1, caracteresRandom.Length)]);
-                        if (hasDisplayStopped) lock (l) { Monitor.Wait(l); }
+                        Console.WriteLine(caracteresRandom[r.Next(0, caracteresRandom.Length)]);
+                        if (hasDisplayStopped)
+                        {
+                            lock (l)
+                            {
+                                Monitor.Wait(l);
+                            }
+                        }
                     }
                 }
-                Thread.Sleep(200);
             }
         }
 
@@ -47,20 +53,29 @@ namespace ThreePlayers
                     num = random.Next(1, 11);
                     Console.SetCursorPosition(2, 2);
                     Console.Write(num.ToString().PadRight(Console.WindowWidth));
-                    //Console.Write(num);
-                    if ((num == 5 || num == 7)&&!endGame)
+                    if ((num == 5 || num == 7) && !endGame)
                     {
-                        if (hasDisplayStopped && hasGameStarted) { contar(5); }
-                        else { contar(1); hasDisplayStopped = !hasDisplayStopped; }
+                        if (hasDisplayStopped && hasGameStarted)
+                        {
+                            contar(5);
+                        }
+                        else
+                        {
+                            contar(1);
+                            hasDisplayStopped = !hasDisplayStopped;
+                        }
                     }
                     hasGameStarted = true;
-                    if (contador >= 20) { endGame = true; }
+                    if (contador >= 20)
+                    {
+                        endGame = true;
+                    }
                 }
                 Thread.Sleep(random.Next(100, 100 * num));
             }
             lock (l)
             {
-                Monitor.Pulse(l);
+                Monitor.PulseAll(l);
             }
         }
 
@@ -77,14 +92,22 @@ namespace ThreePlayers
                     Console.Write(num.ToString().PadRight(Console.WindowWidth));
                     if ((num == 5 || num == 7) && !endGame)
                     {
-                        if (!hasDisplayStopped && hasGameStarted) { contar(-5); }
+                        if (!hasDisplayStopped && hasGameStarted)
+                        {
+                            contar(-5);
+                        }
                         else
                         {
-                            contar(-1); hasDisplayStopped = !hasDisplayStopped; Monitor.PulseAll(l);
+                            contar(-1);
+                            hasDisplayStopped = !hasDisplayStopped;
+                            Monitor.PulseAll(l);
                         }
                     }
                     hasGameStarted = true;
-                    if (contador <= -20) { endGame = true; }
+                    if (contador <= -20)
+                    {
+                        endGame = true;
+                    }
                 }
                 Thread.Sleep(random.Next(100, 100 * num));
             }
@@ -98,17 +121,28 @@ namespace ThreePlayers
             Thread jugador1 = new Thread(Player1);
             Thread jugador2 = new Thread(Player2);
             Thread mostrar = new Thread(Display);
+            //jugador1.IsBackground = true;
+            //jugador2.IsBackground = true;
+            //mostrar.IsBackground = true;
             jugador1.Start();
             jugador2.Start();
             mostrar.Start();
             lock (l)
             {
-                while (!endGame) { Monitor.Wait(l); }
+                while (!endGame)
+                {
+                    Monitor.Wait(l);
+                }
             }
             Console.SetCursorPosition(0, 11);
-            if (contador > 0) Console.WriteLine("The winner is player 1");
-            else Console.WriteLine("The winner is player 2");
-            //Console.SetCursorPosition(10, 10);
+            if (contador > 0)
+            {
+                Console.WriteLine("The winner is player 1");
+            }
+            else
+            {
+                Console.WriteLine("The winner is player 2");
+            }
         }
     }
 }
